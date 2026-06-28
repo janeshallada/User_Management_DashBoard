@@ -1,0 +1,27 @@
+.modal--danger .modal__title {
+  color: var(--color-danger);
+}
+
+.confirm-delete__body {
+  text-align: center;
+  padding: var(--space-8) var(--space-6);
+}
+
+.confirm-delete__icon {
+  color: var(--color-danger);
+  margin-bottom: var(--space-4);
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-delete__msg {
+  font-size: var(--text-base);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+  line-height: 1.5;
+}
+
+.confirm-delete__hint {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
